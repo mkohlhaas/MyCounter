@@ -5,7 +5,7 @@ Class {
 	#name : #Counter,
 	#superclass : #Object,
 	#instVars : [
-		'count'
+		'counter'
 	],
 	#category : #MyCounter
 }
@@ -14,25 +14,25 @@ Class {
 Counter >> count [
 	"get count"
 
-	^ count
+	^ counter
 ]
 
 { #category : #accessing }
 Counter >> count: anInteger [
 	"set count"
 
-	count := anInteger
+	counter := anInteger
 ]
 
 { #category : #API }
 Counter >> decrement [
 
-	count := count - 1
+	counter := counter - 1
 ]
 
 { #category : #accessing }
 Counter >> increment [
 
-	count := count + 1.
+	counter := counter + 1.
 	^ self
 ]
