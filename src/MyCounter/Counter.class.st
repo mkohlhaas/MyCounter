@@ -30,14 +30,14 @@ Counter >> count: anInteger [
 	counter := anInteger
 ]
 
-{ #category : #accessing }
+{ #category : #modifying }
 Counter >> decrement [
 
 	counter := counter - 1.
 	^ self
 ]
 
-{ #category : #accessing }
+{ #category : #modifying }
 Counter >> increment [
 
 	counter := counter + 1.
