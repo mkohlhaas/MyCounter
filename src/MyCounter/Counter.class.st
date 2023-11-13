@@ -30,10 +30,11 @@ Counter >> count: anInteger [
 	counter := anInteger
 ]
 
-{ #category : #API }
+{ #category : #accessing }
 Counter >> decrement [
 
-	counter := counter - 1
+	counter := counter - 1.
+	^ self
 ]
 
 { #category : #accessing }
