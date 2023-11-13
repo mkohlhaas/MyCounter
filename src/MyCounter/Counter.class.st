@@ -1,5 +1,12 @@
 "
-A simple counter.
+`Counter` is a simple concrete class which supports incrementing and decrementing.
+
+Its API is
+- `decrement` 
+- `increment`
+- `count`
+
+Its creation message is `startAt:`
 "
 Class {
 	#name : #Counter,
