@@ -29,3 +29,10 @@ Counter >> decrement [
 
 	count := count - 1
 ]
+
+{ #category : #accessing }
+Counter >> increment [
+
+	count := count + 1.
+	^ self
+]
