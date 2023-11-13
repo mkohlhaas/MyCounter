@@ -7,7 +7,7 @@ Class {
 	#category : #'MyCounter-Tests'
 }
 
-{ #category : #tests }
+{ #category : #testing }
 CounterTest >> testAllMethods [
 
 	| c |
@@ -15,7 +15,7 @@ CounterTest >> testAllMethods [
 	self assert: (c increment; count) equals: 6.
 ]
 
-{ #category : #tests }
+{ #category : #testing }
 CounterTest >> testCounterisSetAndRead [
 
 	| c |
@@ -24,7 +24,7 @@ CounterTest >> testCounterisSetAndRead [
 	self assert: c count equals: 2.
 ]
 
-{ #category : #tests }
+{ #category : #testing }
 CounterTest >> testDecrement [
 
 	| c |
@@ -34,7 +34,7 @@ CounterTest >> testDecrement [
 	self assert: c count equals: 0.
 ]
 
-{ #category : #tests }
+{ #category : #testing }
 CounterTest >> testIncrement [
 
 	| c |
@@ -44,7 +44,7 @@ CounterTest >> testIncrement [
 	self assert: c count equals: 4.
 ]
 
-{ #category : #tests }
+{ #category : #testing }
 CounterTest >> testInitialize [
 
 	| c |
@@ -52,7 +52,7 @@ CounterTest >> testInitialize [
 	self assert: c count equals: 0.
 ]
 
-{ #category : #tests }
+{ #category : #testing }
 CounterTest >> testStartingAt [
 
 	| c |
