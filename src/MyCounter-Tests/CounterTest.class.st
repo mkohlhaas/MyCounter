@@ -15,6 +15,16 @@ CounterTest >> testAllMethods [
 	self assert: (c increment; count) equals: 6.
 ]
 
+{ #category : #tests }
+CounterTest >> testAlternateCreationMethod [
+
+	self
+		assert: ((Counter startingAt: 19)
+				 increment;
+				 count)
+		equals: 20
+]
+
 { #category : #testing }
 CounterTest >> testCounterisSetAndRead [
 
