@@ -32,7 +32,6 @@ Counter >> count [
 
 { #category : #accessing }
 Counter >> count: anInteger [
-	"set count"
 
 	counter := anInteger
 ]
