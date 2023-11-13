@@ -10,7 +10,7 @@ Class {
 	#category : #MyCounter
 }
 
-{ #category : #accessing }
+{ #category : #'instance creation' }
 Counter class >> startingAt: anInteger [
 
 	^ self new count: anInteger.
