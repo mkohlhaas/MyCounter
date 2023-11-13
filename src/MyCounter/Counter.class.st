@@ -33,8 +33,7 @@ Counter >> count: anInteger [
 { #category : #modifying }
 Counter >> decrement [
 
-	counter := counter - 1.
-	^ self
+	counter := counter - 1
 ]
 
 { #category : #modifying }
@@ -47,8 +46,7 @@ Counter >> increment [
 Counter >> initialize [
 
 	super initialize.
-	counter := 0.
-	^ self.
+	counter := 0
 ]
 
 { #category : #printing }
