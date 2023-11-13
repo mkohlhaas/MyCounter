@@ -40,8 +40,7 @@ Counter >> decrement [
 { #category : #modifying }
 Counter >> increment [
 
-	counter := counter + 1.
-	^ self
+	counter := counter + 1
 ]
 
 { #category : #initialization }
