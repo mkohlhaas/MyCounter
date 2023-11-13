@@ -50,3 +50,13 @@ Counter >> initialize [
 	counter := 0.
 	^ self.
 ]
+
+{ #category : #printing }
+Counter >> printOn: aStream [
+
+	super printOn: aStream.
+	aStream nextPut: $(.
+	aStream nextPutAll: self count asString.
+	aStream nextPut: $).
+	
+]
